@@ -1,7 +1,7 @@
 import { SiPython, SiCplusplus, SiC, SiHaskell, SiTailwindcss } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { RiReactjsLine } from "react-icons/ri";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
   initial: {y: -10},
