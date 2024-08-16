@@ -47,7 +47,7 @@ const Technologies = () => {
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
-          href="https://www.sololearn.com/certificates/CC-7RPIHXJO"
+          href="https://www.sololearn.com/en/certificates/CC-ILAPZIQD"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-2xl border-4 border-neutral-800 p-4"
