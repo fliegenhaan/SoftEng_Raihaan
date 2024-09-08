@@ -1,6 +1,8 @@
 import project1 from "../projects/project1.png";
 import project2 from "../projects/project2.png";
 import project3 from "../projects/project3.png";
+import project4 from "../projects/project4.png";
+import project5 from "../projects/project5.png";
 
 export const HERO_CONTENT = `A passionate Informatics Engineering student at ITB, dedicated to exploring the intersection of technology and creativity.
 I'm deeply interested in the field of software engineering. I love building web applications, diving deep into coding challenges, and constantly learning new things.
@@ -78,5 +80,22 @@ export const PROJECTS = [
     link: "https://github.com/fliegenhaan/GameGoDino-1vs1-.git",
     description: `The final project for the "Dasar Pemrograman" course in the form of Terminal-based game created in groups (5 people) using the Python programming language.`,
     technologies:["Python"],
+  },
+  {
+    title: "HaloPIPS! (on-maintenance)",
+    image: project4,
+    link: "https://halo-pips.vercel.app/",
+    description: `SPARTA 2023 Milestone project, which is a website for ITB students to consult with their seniors via the chatroom on this website.
+     In this project I contributed as a back end developer for the user profile, create chat ID, and member list api routes.`,
+    technologies: ["Nextjs", "Tailwind CSS", "Authjs", "Prisma ORM", "ShadcnUI"],
+
+  },
+  {
+    title: "Tontonanque (on-going)",
+    image: project5,
+    link: "https://",
+    description: `A solo project in the form of a movie tracker website that allows user to add, remove, mark as done, and edit their watchlist also give review and rating to the movie they watched.
+    This is my lates project but not finished and deployed yet.`,
+    technologies: ["Nextjs", "Tailwind CSS", "Authjs", "MongoDB", "Expressjs"],
   },
 ];

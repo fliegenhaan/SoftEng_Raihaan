@@ -1,4 +1,4 @@
-import { SiPython, SiCplusplus, SiC, SiHaskell, SiTailwindcss } from "react-icons/si";
+import { SiPython, SiCplusplus, SiC, SiHaskell, SiTailwindcss, SiNextdotjs, SiMongodb, SiMongoose, SiPrisma } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "framer-motion";
@@ -97,6 +97,46 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiTailwindcss className="text-7xl text-cyan-400" />
+        </motion.a>
+        <motion.a
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiNextdotjs className="text-7xl text-blue-600" />
+        </motion.a>
+        <motion.a
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMongodb className="text-7xl text-purple-400" />
+        </motion.a>
+        <motion.a
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMongoose className="text-7xl text-cyan-400" />
+        </motion.a>
+        <motion.a
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPrisma className="text-7xl text-cyan-400" />
         </motion.a>
       </motion.div>
     </div>
