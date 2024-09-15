@@ -82,11 +82,11 @@ export const PROJECTS = [
     technologies:["Python"],
   },
   {
-    title: "HaloPIPS! (on-maintenance)",
+    title: "HaloPIPS!",
     image: project4,
-    link: "https://halo-pips.vercel.app/",
+    link: "https://halo-pips-nzdt.vercel.app/",
     description: `SPARTA 2023 Milestone project, which is a website for ITB students to consult with their seniors via the chatroom on this website.
-     In this project I contributed as a back end developer for the user profile, create chat ID, and member list api routes.`,
+     In this project I contributed as a back end developer for the user profile, settings, dashboard, create chat ID, and member list api routes.`,
     technologies: ["Nextjs", "Tailwind CSS", "Authjs", "Prisma ORM", "ShadcnUI"],
 
   },
