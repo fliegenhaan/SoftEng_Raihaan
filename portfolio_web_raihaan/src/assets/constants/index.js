@@ -90,12 +90,12 @@ export const PROJECTS = [
     technologies: ["Nextjs", "Tailwind CSS", "Authjs", "Prisma ORM", "ShadcnUI"],
 
   },
-  {
-    title: "Tontonanque (on-going)",
-    image: project5,
-    link: "https://",
-    description: `A solo project in the form of a movie tracker website that allows user to add, remove, mark as done, and edit their watchlist also give review and rating to the movie they watched.
-    This is my lates project but not finished and deployed yet.`,
-    technologies: ["Nextjs", "Tailwind CSS", "Authjs", "MongoDB", "Expressjs"],
-  },
+  // {
+  //   title: "Tontonanque (on-going)",
+  //   image: project5,
+  //   link: "https://",
+  //   description: `A solo project in the form of a movie tracker website that allows user to add, remove, mark as done, and edit their watchlist also give review and rating to the movie they watched.
+  //   This is my lates project but not finished and deployed yet.`,
+  //   technologies: ["Nextjs", "Tailwind CSS", "Authjs", "MongoDB", "Expressjs"],
+  // },
 ];
