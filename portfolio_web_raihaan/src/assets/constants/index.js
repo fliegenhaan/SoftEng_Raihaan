@@ -94,7 +94,7 @@ export const PROJECTS = [
     technologies: ["Next.Js","TypeScript","Prisma ORM","REST API","Tailwind CSS","Shadcn UI"],
   },
   {
-    title: "HaloPIPS!",
+    title: "HaloPIPS! (on-maintenance)",
     image: project4,
     link: "https://halo-pips-nzdt.vercel.app/",
     description: `SPARTA 2023 Milestone project, which is a website for ITB students to consult with their seniors via the chatroom on this website.`,
