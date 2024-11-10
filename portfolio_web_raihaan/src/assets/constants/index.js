@@ -2,7 +2,7 @@ import project1 from "../projects/project1.png";
 import project2 from "../projects/project2.png";
 import project3 from "../projects/project3.png";
 import project4 from "../projects/project4.png";
-import project5 from "../projects/project5.png";
+import project6 from "../projects/project6.png";
 
 export const HERO_CONTENT = `A passionate Informatics Engineering student at ITB, dedicated to exploring the intersection of technology and creativity.
 I'm deeply interested in the field of software engineering. I love building web applications, diving deep into coding challenges, and constantly learning new things.
@@ -21,43 +21,85 @@ In addition to my technical pursuits, I actively participate in a variety of act
 
 export const EXPERIENCES = [
   {
+    year: "Oct 2024 - Present",
+    role: "Frontend Developer PEMILU HMIF ITB 2025",
+    company: "HMIF ITB",
+    description: `Currently developing Chairman of HMIF ITB election platform features, implemented the landing page and footer design based on figma and ensuring responsiveness across devices, and built reusable UI components using CSS and shadcn/ui library for efficient development.`,
+    skills: ["Next.Js","TypeScript","Tailwind CSS","Shadcn UI"],
+  },
+  {
+    year: "Sept 2024 - Present",
+    role: "Frontend Developer PEMIRA KM ITB 2025",
+    company: "KM ITB",
+    description: `Currently developing Chairman of KM ITB election platform features, implementing the website design based on Figma, ensuring responsiveness across devices, and built voting guide feature implementing step-by-step instructions to enhance user experience during the student election voting process.`,
+    skills: ["Next.Js","TypeScript","Tailwind CSS","Shadcn UI"],
+  },
+  {
+    year: "Sept 2024 - Nov 2024",
+    role: "Frontend Developer Wisuda Oktober ITB 2024",
+    company: "Parade Wisuda ITB",
+    description: `Developed and implemented the website design based on Figma, ensuring responsiveness across devices, and built reusable UI components using shadcn/ui library for efficient development.`,
+    skills: ["Next.Js","TypeScript","Tailwind CSS","Shadcn UI"],
+  },
+  {
+    year: "Jul 2024 - Sept 2024",
+    role: "FullStack Developer HaloPIPS!",
+    company: "Team Project for SPARTA 2023",
+    description: `Managed the backend using Next.js server actions for user profiles, settings, authentication, and chat ID creation, along with implementing data storage mechanisms using firebase. Developed frontend features including profile and settings pages with comprehensive user interface.`,
+    skills: ["Next.Js","TypeScript","Firebase","Firestore","REST API","Tailwind CSS","Shadcn UI"],
+  },
+  {
     year: "Jul 2024 - Present",
     role: "Head of Event: PEMPEK 2024",
     company: "MUSI ITB",
     description: `Led a team in planning, conceptualizing and determining themes, ToR and Timeline for the cadre formation of new members of MUSI ITB 2024/"PEMPEK 2024"`,
     skills: ["Project Management","Leadership","Creativity","Negotiation"],
   },
-  {
-    year: "Jul 2024 - Present",
-    role: "Human Resources Management Officer",
-    company: "IEEE ITB Student Branch",
-    description: `Managing human resources in the organization. Ensure that team members feel valued, motivated, and have everything they need to contribute effectively. Primary duties include recruiting, member development, and team welfare management.`,
-    skills: ["Communication","Problem Solving","Time Management","Interpersonal"],
-  },
-  {
-    year: "Dec 2023 - Jul 2024",
-    role: "Staff of Finance",
-    company: "BPA STEI-K 2023",
-    description: `Manage fundraising activities to meet the needs of the STEI-K 2023. Primary responsibilities include budget planning, transaction recording, fundraising management, and financial reporting.`,
-    skills: ["Accounting", "Finance Management", "Marketing", "Analytical Thinking"],
-  },
-  {
-    year: "Oct 2023 - Jun 2024",
-    role: "Member",
-    company: "GDSC ITB",
-    description: `Get training in the chosen field (Web Development, Mobile Development, Data Science, UI/UX, etc) then work on the final project to get a graduation certificate according to the field.`,
-    skills: ["HTML","CSS","JavaScript","React"],
-  },
-  {
-    year: "March 2024 - May 2024",
-    role: "Staff of Sponsorship for STEI-Kesyen",
-    company: "STEI-K 2023",
-    description: `Managing and developing relationships with sponsors, as well as ensuring sponsor support is achieved properly, obtaining financial and material support necessary for the success of the STEI-Kesyen Event.`,
-    skills: ["Negotiation","Interpersonal Skills","Communication","Accounting"],
-  },
+  // {
+  //   year: "Jul 2024 - Present",
+  //   role: "Human Resources Management Officer",
+  //   company: "IEEE ITB Student Branch",
+  //   description: `Managing human resources in the organization. Ensure that team members feel valued, motivated, and have everything they need to contribute effectively. Primary duties include recruiting, member development, and team welfare management.`,
+  //   skills: ["Communication","Problem Solving","Time Management","Interpersonal"],
+  // },
+  // {
+  //   year: "Dec 2023 - Jul 2024",
+  //   role: "Staff of Finance",
+  //   company: "BPA STEI-K 2023",
+  //   description: `Manage fundraising activities to meet the needs of the STEI-K 2023. Primary responsibilities include budget planning, transaction recording, fundraising management, and financial reporting.`,
+  //   skills: ["Accounting", "Finance Management", "Marketing", "Analytical Thinking"],
+  // },
+  // {
+  //   year: "Oct 2023 - Jun 2024",
+  //   role: "Member",
+  //   company: "GDSC ITB",
+  //   description: `Get training in the chosen field (Web Development, Mobile Development, Data Science, UI/UX, etc) then work on the final project to get a graduation certificate according to the field.`,
+  //   skills: ["HTML","CSS","JavaScript","React"],
+  // },
+  // {
+  //   year: "March 2024 - May 2024",
+  //   role: "Staff of Sponsorship for STEI-Kesyen",
+  //   company: "STEI-K 2023",
+  //   description: `Managing and developing relationships with sponsors, as well as ensuring sponsor support is achieved properly, obtaining financial and material support necessary for the success of the STEI-Kesyen Event.`,
+  //   skills: ["Negotiation","Interpersonal Skills","Communication","Accounting"],
+  // },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Parade Wisokto 2024",
+    image: project6,
+    link: "https://paradewisok2024.com/",
+    description: `The Parade Wisokto 2024 website celebrates graduates with a Wall of Appreciation for congratulatory messages, showcases their final projects through TA fair, and offers exclusive event merchandise.`,
+    technologies: ["Next.Js","TypeScript","Prisma ORM","REST API","Tailwind CSS","Shadcn UI"],
+  },
+  {
+    title: "HaloPIPS!",
+    image: project4,
+    link: "https://halo-pips-nzdt.vercel.app/",
+    description: `SPARTA 2023 Milestone project, which is a website for ITB students to consult with their seniors via the chatroom on this website.`,
+    technologies: ["Next.Js","TypeScript","Firebase","Firestore","REST API","Tailwind CSS","Shadcn UI"],
+  },
   {
     title: "Tenki no Haan",
     image: project1,
@@ -80,15 +122,6 @@ export const PROJECTS = [
     link: "https://github.com/fliegenhaan/GameGoDino-1vs1-.git",
     description: `The final project for the "Dasar Pemrograman" course in the form of Terminal-based game created in groups (5 people) using the Python programming language.`,
     technologies:["Python"],
-  },
-  {
-    title: "HaloPIPS!",
-    image: project4,
-    link: "https://halo-pips-nzdt.vercel.app/",
-    description: `SPARTA 2023 Milestone project, which is a website for ITB students to consult with their seniors via the chatroom on this website.
-     In this project I contributed as a back end developer for the user profile, settings, dashboard, create chat ID, and member list api routes.`,
-    technologies: ["Nextjs", "Tailwind CSS", "Authjs", "Prisma ORM", "ShadcnUI"],
-
   },
   // {
   //   title: "Tontonanque (on-going)",
