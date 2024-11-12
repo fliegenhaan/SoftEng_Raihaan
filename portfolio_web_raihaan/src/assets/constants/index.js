@@ -3,6 +3,7 @@ import project2 from "../projects/project2.png";
 import project3 from "../projects/project3.png";
 import project4 from "../projects/project4.png";
 import project6 from "../projects/project6.png";
+import project7 from "../projects/project7.png";
 
 export const HERO_CONTENT = `A passionate Informatics Engineering student at ITB, dedicated to exploring the intersection of technology and creativity.
 I'm deeply interested in the field of software engineering. I love building web applications, diving deep into coding challenges, and constantly learning new things.
@@ -86,6 +87,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Pemilu HMIF 2024/2025",
+    image: project7,
+    link: "https://pemilu.hmif.dev/",
+    description: `The Pemilu HMIF 2024/2025 website for chairman election`,
+    technologies: ["Next.js","TypeScript","Prisma ORM","REST API","Docker","Tailwind CSS","Shadcn UI"],
+  },
   {
     title: "Parade Wisokto 2024",
     image: project6,
