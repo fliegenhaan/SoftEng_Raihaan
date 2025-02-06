@@ -4,6 +4,8 @@ import project3 from "../projects/project3.png";
 import project4 from "../projects/project4.png";
 import project6 from "../projects/project6.png";
 import project7 from "../projects/project7.png";
+import project8 from "../projects/project8.png";
+import project9 from "../projects/project9.png";
 
 export const HERO_CONTENT = `A passionate Informatics Engineering student at ITB, dedicated to exploring the intersection of technology and creativity.
 I'm deeply interested in the field of software engineering. I love building web applications, diving deep into coding challenges, and constantly learning new things.
@@ -88,6 +90,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "HalalHub",
+    image: project9,
+    link: "https://github.com/fliegenhaan/IF2150-2024-K03-G07-HalalHub",
+    description: `HalalHub is a GUI-based software developed using Python, designed specifically for small and medium-sized enterprises (SMEs/UMKM) to manage businesses selling Muslim clothing and accessories.`,
+    technologies: ["Python","Tkinter","Python GUI","Model View Controller","CI/CD"],
+  },
+  {
+    title: "Skibiditify",
+    image: project8,
+    link: "https://github.com/fliegenhaan/Algeo02-23124-Skibiditify",
+    description: `Skibiditify is a website designed as an audio and image finder, utilizing linear algebra and geometry concepts such as the PCA method for image searching and Query by Humming for audio searching.`,
+    technologies: ["Next.js","TypeScript","Flask","Python","API","Tailwind CSS","Shadcn UI"],
+  },
+  {
     title: "Pemilu HMIF 2024/2025",
     image: project7,
     link: "https://pemilu.hmif.dev/",
@@ -131,12 +147,4 @@ export const PROJECTS = [
     description: `The final project for the "Dasar Pemrograman" course in the form of Terminal-based game created in groups (5 people) using the Python programming language.`,
     technologies:["Python"],
   },
-  // {
-  //   title: "Tontonanque (on-going)",
-  //   image: project5,
-  //   link: "https://",
-  //   description: `A solo project in the form of a movie tracker website that allows user to add, remove, mark as done, and edit their watchlist also give review and rating to the movie they watched.
-  //   This is my lates project but not finished and deployed yet.`,
-  //   technologies: ["Nextjs", "Tailwind CSS", "Authjs", "MongoDB", "Expressjs"],
-  // },
 ];
