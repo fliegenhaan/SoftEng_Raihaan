@@ -6,6 +6,7 @@ import project6 from "../projects/project6.png";
 import project7 from "../projects/project7.png";
 import project8 from "../projects/project8.png";
 import project9 from "../projects/project9.png";
+import project10 from "../projects/project10.png";
 
 export const HERO_CONTENT = `A passionate Informatics Engineering student at ITB, dedicated to exploring the intersection of technology and creativity.
 I'm deeply interested in the field of software engineering. I love building web applications, diving deep into coding challenges, and constantly learning new things.
@@ -89,6 +90,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Pemira KM ITB 2025",
+    image: project10,
+    link: "https://www.pemirakmitb.com/",
+    description: `The Pemira KM ITB 2025 website for chairman election`,
+    technologies:["Next.js", "TypeScript", "Prisma ORM", "Docker", "Tailwind CSS", "Shadcn UI"],
+  },
   {
     title: "HalalHub",
     image: project9,
