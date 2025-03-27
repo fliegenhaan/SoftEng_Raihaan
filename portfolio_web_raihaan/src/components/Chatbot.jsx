@@ -17,7 +17,7 @@ const Chatbot = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("https://soft-eng-raihaan.vercel.app/api/chatbot", {
+      const res = await fetch("https://soft-eng-raihaan-backend.vercel.app/api/chatbot", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: userMessage }),
