@@ -8,6 +8,7 @@ This portfolio website is a personal showcase of my projects, skills, and experi
 - **⚛️ React**: For building the user interface.
 - **⚡ Vite**: As the bundler, offering a fast and efficient development experience.
 - **🎨 Tailwind CSS**: For styling and ensuring a responsive design.
+- **🗃️ Supabase**: For database management system.
 - **🚀 Vercel**: For deployment and making the website publicly accessible.
 
 ## 🏁 Getting Started
@@ -50,8 +51,8 @@ To run this project locally, follow these steps:
 - The website is fully responsive and adapts to different screen sizes using Tailwind CSS breakpoints.
 
 ### 🗃️ Database or CMS Integration
-- **Status**: Not Implemented ❌
-- Due to the static nature of the content, database or CMS integration was not implemented.
+- **Status**: Completed ✅
+- The website data is fully migrated to dbms in order to make it more maintainable.
 
 ### 🎨 Creativity
 - **Status**: Completed ✅
