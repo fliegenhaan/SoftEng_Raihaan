@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Project from './components/Projects';
 import Technologies from './components/Technologies';
-// import Chatbot from './components/Chatbot';
+import Chatbot from './components/Chatbot';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <div className="container mx-auto px-8 pt-20">
         <Navbar />
         <Hero />
-        {/* <Chatbot /> */}
+        <Chatbot />
         <About />
         <Experience />
         <Project />
