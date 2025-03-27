@@ -9,7 +9,6 @@ export const DescriptionProvider = ({ children }) => {
   useEffect(() => {
     const fetchDescription = async () => {
       let { data, error } = await supabase.from("description").select("*");
-      console.log("Fetch data:", data)
       if (error) console.error("Error fetching description: ", error);
       else setDescription(data[0]);
     };
