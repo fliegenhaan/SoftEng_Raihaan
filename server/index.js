@@ -47,4 +47,7 @@ app.get('/api/chatbot', (req, res) => {
     res.json({ message: "Chatbot API is running!" });
 });
 
-module.exports = app;
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
