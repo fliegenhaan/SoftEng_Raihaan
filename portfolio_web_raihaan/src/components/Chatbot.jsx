@@ -53,9 +53,9 @@ const Chatbot = () => {
           {messages.map((msg, index) => (
             <div key={index} className={`mb-2 ${msg.role === "user" ? "text-right" : "text-left"}`}>
               {msg.role === "bot" ? (
-                <TypeAnimation sequence={[msg.content]} wrapper="p" speed={70} className="inline-block p-2 rounded-md bg-gray-600" cursor={false} />
+                <TypeAnimation sequence={[msg.content]} wrapper="p" speed={70} className="inline-block p-2 rounded-md bg-gray-800" cursor={false} />
               ) : (
-                <p className="inline-block p-2 rounded-md bg-purple-700">{msg.content}</p>
+                <p className="inline-block p-2 rounded-md bg-purple-700 text-gray-800">{msg.content}</p>
               )}
             </div>
           ))}
